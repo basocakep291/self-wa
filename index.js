@@ -313,7 +313,7 @@ Waktu :* ${moment.unix(int.timestamp).format('HH:mm:ss DD/MM/YYYY')}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["918119971193@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6282292119677@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const totalchat = await client.chats.all()
